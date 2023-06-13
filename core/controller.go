@@ -15,11 +15,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Roverr/rtsp-stream/core/auth"
-	"github.com/Roverr/rtsp-stream/core/blacklist"
-	"github.com/Roverr/rtsp-stream/core/config"
+	"github.com/greenphyto/rtsp-stream/core/auth"
+	"github.com/greenphyto/rtsp-stream/core/blacklist"
+	"github.com/greenphyto/rtsp-stream/core/config"
+	"github.com/greenphyto/streamer"
 	"github.com/julienschmidt/httprouter"
-	"github.com/riltech/streamer"
 	"github.com/sirupsen/logrus"
 )
 
